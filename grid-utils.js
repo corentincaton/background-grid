@@ -1,3 +1,7 @@
+// https://betterprogramming.pub/creating-a-reliable-javascript-library-a-step-by-step-guide-6907c778341c
+
+
+
 /**
  * Adds a background grid to a target DOM element.
  * @param {String} target - The selector of the target element.
