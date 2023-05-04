@@ -1,15 +1,26 @@
-body {
-    margin: 0px;
+html, body {
+  margin: 16px 80px;
+  font-family: Helvetica, sans-serif;
+  background-color: bisque;
 }
 
-.grid-container {
-    position: relative;
+button {
+  background-color: #6495ed;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px 40px 18px;
+  margin: 0px 16px 0px 0px;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
 
-.grid {
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(#63e2b4 1px, transparent 1px), linear-gradient(90deg, #63e2b4 1px, transparent 1px); 
-    background-size: 20% 20px;
+p {
+  font-size: 80px;
+  margin-top: 132px;
+  line-height: 1;
 }
