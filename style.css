@@ -1,7 +1,6 @@
-html, body {
-  margin: 16px 80px;
+body {
+  margin: 80px;
   font-family: Helvetica, sans-serif;
-  background-color: bisque;
 }
 
 button {
@@ -24,3 +23,5 @@ p {
   margin-top: 132px;
   line-height: 1;
 }
+
+
