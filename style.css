@@ -4,13 +4,14 @@ body {
 }
 
 button {
-  background-color: #6495ed;
   text-transform: uppercase;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+  min-width: 300px;
+  border-radius: 10px;
   cursor: pointer;
   padding: 20px 40px 18px;
-  margin: 0px 16px 0px 0px;
+  margin: 0px 10px 10px 0px;
   border-width: 0;
   font-family: inherit;
   font-style: inherit;
@@ -18,9 +19,17 @@ button {
   line-height: inherit;
 }
 
+button.green {
+  background-color: #FF901E;
+}
+
+button.blue {
+  background-color: #3FA6F2;
+}
+
 p {
   font-size: 80px;
-  margin-top: 132px;
+  margin-top: 120px;
   line-height: 1;
 }
 

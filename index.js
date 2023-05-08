@@ -1,12 +1,23 @@
-const grid = new Grid("#content", 4, 20, "#567743");
+const fixedGrid = new FixedGrid("body", 80, 80, "#3FA6F2");
+const figmaGrid = new FigmaGrid("#content", 4, 20, "#FF901E");
 
 document
-  .getElementById("showGridButton")
+  .getElementById("showFixedGridButton")
   .addEventListener("click", function () {
-    grid.showGrid();
+    fixedGrid.showGrid();
   });
 document
-  .getElementById("hideGridButton")
+  .getElementById("showFigmaGridButton")
   .addEventListener("click", function () {
-    grid.hideGrid();
+    figmaGrid.showGrid();
+  });
+document
+  .getElementById("hideFixedGridButton")
+  .addEventListener("click", function () {
+    fixedGrid.hideGrid();
+  });
+document
+  .getElementById("hideFigmaGridButton")
+  .addEventListener("click", function () {
+    figmaGrid.hideGrid();
   });
