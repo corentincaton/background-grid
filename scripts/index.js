@@ -1,6 +1,8 @@
+// Create FixedGrid and FigmaGrid objects
 const fixedGrid = new FixedGrid("body", 80, 80, "#3FA6F2");
 const figmaGrid = new FigmaGrid("#content", 4, 20, "#FF901E");
 
+// Init Show and Hide buttons
 document
   .getElementById("showFixedGridButton")
   .addEventListener("click", function () {
