@@ -1,3 +1,6 @@
+/**
+ * Class to create and display a responsive background grid in a target element 
+ */
 class FigmaGrid {
   /**
    * @property {string} target - The selector of the target element
@@ -12,6 +15,9 @@ class FigmaGrid {
     this.color = color;
   }
 
+  /**
+   * Method to add a CSS background grid style to the target element
+   */
   showGrid() {
     var targetElement = document.querySelector(this.target);
     if (typeof targetElement != "undefined" && targetElement != null) {
@@ -20,6 +26,9 @@ class FigmaGrid {
     }
   }
 
+  /**
+   * Method to reset the CSS background style of the target element
+   */
   hideGrid() {
     var targetElement = document.querySelector(this.target);
     if (typeof targetElement != "undefined" && targetElement != null) {
